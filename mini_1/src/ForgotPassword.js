@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
+
 export default function ForgotPassword() {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
@@ -12,7 +14,7 @@ export default function ForgotPassword() {
     if (!email) { setError('Please enter your email.'); return; }
     setLoading(true); setError('');
     try {
-      const res = await fetch('http://localhost:8080/api/auth/forgot-password', {
+      const res = await fetch(`${BACKEND_URL}/api/auth/forgot-password`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),

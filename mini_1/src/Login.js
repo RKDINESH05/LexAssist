@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
+
 export default function Login() {
   const navigate = useNavigate();
   const [form, setForm] = useState({ username: '', password: '' });
@@ -15,7 +17,7 @@ export default function Login() {
     if (!form.username || !form.password) { setError('Please enter username and password.'); return; }
     setLoading(true); setError('');
     try {
-      const res = await fetch('http://localhost:8080/api/auth/login', {
+      const res = await fetch(`${BACKEND_URL}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),

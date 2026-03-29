@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Login.css';
 
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
+
 export default function ResetPassword() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -23,7 +25,7 @@ export default function ResetPassword() {
     }
     setLoading(true); setError('');
     try {
-      const res = await fetch('http://localhost:8080/api/auth/reset-password', {
+      const res = await fetch(`${BACKEND_URL}/api/auth/reset-password`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, otp: form.otp, newPassword: form.newPassword }),
