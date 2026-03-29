@@ -1,0 +1,1 @@
+// Firebase Storage removed — files are now stored via Cloudinary through Spring Boot backend

@@ -1,0 +1,138 @@
+[
+  {
+    "section": "IPC 279",
+    "title": "Rash Driving or Riding on a Public Way",
+    "keywords": ["rash driving", "reckless driving", "speeding", "accident", "road accident", "vehicle", "driving", "hit", "collision"],
+    "description": "Whoever drives any vehicle, or rides, on any public way in a manner so rash or negligent as to endanger human life, or to be likely to cause hurt or injury to any other person.",
+    "punishment": "Imprisonment up to 6 months, or fine up to Rs. 1000, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 304A",
+    "title": "Causing Death by Negligence",
+    "keywords": ["death by negligence", "negligent death", "accident death", "killed", "fatal accident", "causing death", "negligence", "died in accident"],
+    "description": "Whoever causes the death of any person by doing any rash or negligent act not amounting to culpable homicide.",
+    "punishment": "Imprisonment up to 2 years, or fine, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 378",
+    "title": "Theft",
+    "keywords": ["theft", "steal", "stolen", "stealing", "rob", "robbery", "pickpocket", "shoplifting", "snatching"],
+    "description": "Whoever, intending to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking.",
+    "punishment": "Imprisonment up to 3 years, or fine, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 379",
+    "title": "Punishment for Theft",
+    "keywords": ["theft punishment", "stolen property", "mobile theft", "bike theft", "car theft"],
+    "description": "Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "punishment": "Imprisonment up to 3 years, or fine, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 302",
+    "title": "Punishment for Murder",
+    "keywords": ["murder", "kill", "killing", "homicide", "killed intentionally", "death penalty", "assassinate"],
+    "description": "Whoever commits murder shall be punished. Murder is defined under IPC 300 as culpable homicide with intent to cause death.",
+    "punishment": "Death penalty or imprisonment for life, and fine.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 307",
+    "title": "Attempt to Murder",
+    "keywords": ["attempt to murder", "tried to kill", "attack with weapon", "stabbed", "shot", "attempted murder"],
+    "description": "Whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of murder.",
+    "punishment": "Imprisonment up to 10 years and fine. If hurt is caused, imprisonment for life.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 354",
+    "title": "Assault or Criminal Force to Woman with Intent to Outrage Her Modesty",
+    "keywords": ["assault woman", "molestation", "outrage modesty", "harassment woman", "eve teasing", "groping", "sexual harassment"],
+    "description": "Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty.",
+    "punishment": "Imprisonment of 1 to 5 years, and fine.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 376",
+    "title": "Punishment for Rape",
+    "keywords": ["rape", "sexual assault", "sexual abuse", "POCSO", "sexual violence"],
+    "description": "Whoever commits rape shall be punished with rigorous imprisonment of either description for a term which shall not be less than ten years.",
+    "punishment": "Rigorous imprisonment not less than 10 years, may extend to life imprisonment, and fine.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 420",
+    "title": "Cheating and Dishonestly Inducing Delivery of Property",
+    "keywords": ["cheating", "fraud", "scam", "deceive", "deception", "cheat", "online fraud", "financial fraud", "con", "swindle"],
+    "description": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security.",
+    "punishment": "Imprisonment up to 7 years, and fine.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 498A",
+    "title": "Husband or Relative of Husband of a Woman Subjecting Her to Cruelty",
+    "keywords": ["domestic violence", "dowry harassment", "cruelty by husband", "wife abuse", "dowry", "marital cruelty", "husband torture"],
+    "description": "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty.",
+    "punishment": "Imprisonment up to 3 years, and fine.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 406",
+    "title": "Punishment for Criminal Breach of Trust",
+    "keywords": ["breach of trust", "misappropriation", "embezzlement", "trust violation", "property misuse"],
+    "description": "Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.",
+    "punishment": "Imprisonment up to 3 years, or fine, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 323",
+    "title": "Punishment for Voluntarily Causing Hurt",
+    "keywords": ["hurt", "assault", "beating", "fight", "physical assault", "punched", "slapped", "attacked"],
+    "description": "Whoever, except in the case provided for by section 334, voluntarily causes hurt, shall be punished.",
+    "punishment": "Imprisonment up to 1 year, or fine up to Rs. 1000, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 504",
+    "title": "Intentional Insult with Intent to Provoke Breach of Peace",
+    "keywords": ["insult", "verbal abuse", "provocation", "abusive language", "threatening", "intimidation"],
+    "description": "Whoever intentionally insults, and thereby gives provocation to any person, intending or knowing it to be likely that such provocation will cause him to break the public peace.",
+    "punishment": "Imprisonment up to 2 years, or fine, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "IPC 509",
+    "title": "Word, Gesture or Act Intended to Insult the Modesty of a Woman",
+    "keywords": ["insult woman", "catcalling", "obscene gesture", "stalking", "harassment", "teasing woman"],
+    "description": "Whoever, intending to insult the modesty of any woman, utters any word, makes any sound or gesture, or exhibits any object, intending that such word or sound shall be heard.",
+    "punishment": "Imprisonment up to 3 years, or fine, or both.",
+    "act": "Indian Penal Code"
+  },
+  {
+    "section": "Motor Vehicles Act Section 184",
+    "title": "Driving Dangerously",
+    "keywords": ["dangerous driving", "drunk driving", "drunken driving", "DUI", "over speed", "traffic violation", "rash driving on highway"],
+    "description": "Whoever drives a motor vehicle at a speed or in a manner which is dangerous to the public, having regard to all the circumstances of the case.",
+    "punishment": "First offence: Imprisonment up to 1 year or fine up to Rs. 5000. Second offence: Imprisonment up to 2 years or fine up to Rs. 10000.",
+    "act": "Motor Vehicles Act"
+  },
+  {
+    "section": "IT Act Section 66C",
+    "title": "Identity Theft",
+    "keywords": ["identity theft", "fake identity", "impersonation", "stolen credentials", "account hacking", "password theft"],
+    "description": "Whoever, fraudulently or dishonestly makes use of the electronic signature, password or any other unique identification feature of any other person.",
+    "punishment": "Imprisonment up to 3 years and fine up to Rs. 1 lakh.",
+    "act": "Information Technology Act"
+  },
+  {
+    "section": "IT Act Section 66E",
+    "title": "Violation of Privacy",
+    "keywords": ["privacy violation", "voyeurism", "hidden camera", "recording without consent", "morphed images", "leaked photos"],
+    "description": "Whoever intentionally or knowingly captures, publishes or transmits the image of a private area of any person without his or her consent.",
+    "punishment": "Imprisonment up to 3 years or fine up to Rs. 2 lakh, or both.",
+    "act": "Information Technology Act"
+  }
+]

@@ -1,0 +1,11 @@
+# Logs
+*.log
+
+# Java build artifacts
+legal-ai-backend/target/
+legal-ai-backend/BOOT-INF/
+
+# Node
+mini_1/node_modules/
+mini_1/build/
+mini_1/.env
