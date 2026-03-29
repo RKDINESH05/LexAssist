@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Vault.css';
 import ChatWidget from './ChatWidget';
@@ -44,7 +44,7 @@ export default function Vault() {
   useEffect(() => {
     if (!token) { navigate('/'); return; }
     fetchAll();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchAll = async () => {
     setLoading(true);

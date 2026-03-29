@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './CaseFiles.css';
-import { deleteFromCloudinary } from './cloudinaryUpload';
 import ChatWidget from './ChatWidget';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
@@ -74,15 +73,16 @@ export default function CaseFiles() {
   const folderFileRef = useRef();
 
   useEffect(() => {
-    if (!localStorage.getItem('token')) { navigate('/'); return; }
-    fetchCases();
+    if (!localStorage.getItem('token')) { navigate('/'); return; } // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => { fetchCases(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!openCase) return;
     if (activeSection === 'HEARING_NOTES') fetchHearingNotes(openCase.id);
     else fetchCaseFiles(openCase.id);
-  }, [activeSection, openCase]);
+  }, [activeSection, openCase]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchCases = async () => {
     try {

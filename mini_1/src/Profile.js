@@ -23,7 +23,7 @@ export default function Profile() {
   useEffect(() => {
     if (!token) { navigate('/'); return; }
     fetchProfile();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchProfile = async () => {
     try {

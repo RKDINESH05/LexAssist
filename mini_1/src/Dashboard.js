@@ -26,7 +26,7 @@ export default function Dashboard() {
     fetchStats();
     fetchRecent();
     fetchCases();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const fetchStats = async () => {
     try {
